@@ -22,7 +22,7 @@
   z-index: -1;
 }
 .all .righttop {
-  margin-top: 2rem;
+  margin-top: -1rem;
 }
 .all .righttop div {
   width: 100%;
@@ -51,7 +51,7 @@
   top: 100px;
 }
 .all .header {
-  height: 10rem;
+  height: 13rem;
   width: 100px;
 }
 .all .header .img1 {

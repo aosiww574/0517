@@ -8,11 +8,10 @@
   width: 100%;
   margin: 0 auto;
   background-color: #aaa;
-  height: 1501px;
   display: flex;
   flex-direction: column;
-  background-image: url(../image/back.png);
-  background-position: center center;
+  background-image: url(../image/back1.png);
+  background-position: center top;
   background-size: center;
   position: relative;
 }
@@ -22,7 +21,7 @@
   z-index: -1;
 }
 .all .righttop {
-  margin-top: 1.5rem;
+  margin-top: 10px;
 }
 .all .righttop div {
   width: 100%;
@@ -47,8 +46,7 @@
   top: 100px;
 }
 .all .header {
-  height: 7.5rem;
-  width: 100px;
+  overflow: hidden;
 }
 .all .header .img1 {
   display: block;
@@ -57,10 +55,11 @@
 }
 .all .header .img2 {
   display: block;
-  margin: 0 auto;
-  width: 100%;
+  margin: 0 -25%;
+  width: 150%;
 }
 .all .sc {
+  margin-top: 60px;
   position: relative;
 }
 .all .sc #po2 {
@@ -78,11 +77,16 @@
 }
 .all .part1 {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .all .part1 .img3 {
+  padding: 0;
   display: block;
   margin: 0 auto;
   width: 80%;
+  width: 100%;
+  margin-top: 30px;
 }
 .all .part2 {
   margin-top: 1rem;
@@ -152,14 +156,5 @@
   width: 80%;
 }
 .swiper-container-horizontal .swiper-pagination-bullets {
-  bottom: -16px;
-}
-@media screen and (min-width: 400px) {
-  .all .header {
-    margin: 0 auto;
-    height: 6rem;
-  }
-  .all footer .img4 {
-    margin-top: 20px;
-  }
+  bottom: -2px;
 }

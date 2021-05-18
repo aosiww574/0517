@@ -8,12 +8,12 @@
   width: 100%;
   margin: 0 auto;
   background-color: #aaa;
-  height: 1940px;
+  height: 1501px;
   display: flex;
   flex-direction: column;
-  background-image: url(../image/back1.png);
+  background-image: url(../image/back.png);
   background-position: center center;
-  background-size: cover;
+  background-size: center;
   position: relative;
 }
 .all .back {
@@ -22,7 +22,7 @@
   z-index: -1;
 }
 .all .righttop {
-  margin-top: -1rem;
+  margin-top: 1.5rem;
 }
 .all .righttop div {
   width: 100%;
@@ -41,17 +41,13 @@
   display: block;
   margin: 0 auto;
 }
-.all #bottom {
-  position: absolute;
-  bottom: 0;
-}
 .all #po1 {
   position: fixed;
   right: 20px;
   top: 100px;
 }
 .all .header {
-  height: 13rem;
+  height: 7.5rem;
   width: 100px;
 }
 .all .header .img1 {
@@ -89,7 +85,7 @@
   width: 80%;
 }
 .all .part2 {
-  margin-top: 3rem;
+  margin-top: 1rem;
   width: 100%;
   z-index: 1;
 }
@@ -102,7 +98,7 @@
 .all .part2 img {
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
 }
 .all .part3 {
   width: 100%;
@@ -121,6 +117,7 @@
 .all footer .img4 {
   display: block;
   margin: 0 auto;
+  margin-top: 40px;
   width: 80%;
 }
 .swiper-container {
@@ -156,4 +153,13 @@
 }
 .swiper-container-horizontal .swiper-pagination-bullets {
   bottom: -16px;
+}
+@media screen and (min-width: 400px) {
+  .all .header {
+    margin: 0 auto;
+    height: 6rem;
+  }
+  .all footer .img4 {
+    margin-top: 20px;
+  }
 }

@@ -3,6 +3,23 @@
   padding: 0;
   list-style: none;
 }
+.overlay {
+  position: fixed;
+  top: 0%;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 .all {
   max-width: 750px;
   width: 100%;
